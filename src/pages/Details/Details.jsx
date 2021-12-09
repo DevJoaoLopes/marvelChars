@@ -16,7 +16,6 @@ const Details = () => {
     }, []);
     
     
-    console.log(series);
     return (
         series.length === 0 ? 
             <>
