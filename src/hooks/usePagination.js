@@ -1,34 +1,34 @@
-import {useState, useEffect} from 'react'
+import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import qs from 'query-string';
 
 
 export default function usePagination() {
 
-    const location = useLocation();
-    const navigate = useNavigate();
+  const location = useLocation();
+  const navigate = useNavigate();
 
-    const [actualPage, setActualPage] = useState(
-        getActualPage() || 1
-    );
+  const [actualPage, setActualPage] = useState(
+    getActualPage() || 1
+  );
 
-    function getActualPage(){
-        const queryParams = qs.parse(location.search);
-        const page = queryParams.page;
-        return page ? page : undefined;
-    };
+  function getActualPage(){
+    const queryParams = qs.parse(location.search);
+    const page = queryParams.page;
+    return page ? page : undefined;
+  }
 
-    useEffect(() => {
-        const queryParams = qs.parse(location.search);
-        const stringParams = qs.stringify({...queryParams, page: actualPage});
-        navigate(`/?${stringParams}`);
+  useEffect(() => {
+    const queryParams = qs.parse(location.search);
+    const stringParams = qs.stringify({ ...queryParams, page: actualPage });
+    navigate(`/?${stringParams}`);
 
-    }, [actualPage]);
+  }, [actualPage]);
 
     
 
-    return {
-        setActualPage,
-        actualPage
-    }
+  return {
+    setActualPage,
+    actualPage
+  };
 }

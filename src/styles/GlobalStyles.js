@@ -15,4 +15,4 @@ export const GlobalStyles = createGlobalStyle`
         --white: #2d2929;
         --red: #ed1212;
     }
-`
+`;
