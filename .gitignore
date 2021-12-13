@@ -24,3 +24,11 @@ yarn-error.log*
 
 
 .env
+
+
+# testing
+/coverage
+/cypress/videos
+lib-cov
+coverage/
+*.lcov
