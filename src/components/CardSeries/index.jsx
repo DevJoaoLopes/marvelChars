@@ -1,3 +1,3 @@
-import CardSeries from "./CardSeries";
+import CardSeries from './CardSeries';
 
 export default CardSeries;
