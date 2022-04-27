@@ -6,7 +6,7 @@
 [![GitHub license](https://img.shields.io/github/license/DevJoaoLopes/marvelChars)](https://github.com/DevJoaoLopes/PokeDex)
 
 
-Aplicação usando a api aberta da marvel (https://developer.marvel.com/). Api https://api.marvelql.com/ não disponivel.
+Aplicação usando a api aberta da marvel (https://developer.marvel.com/).
 
 
 ![image info](./src/assets/docs/home.png)
