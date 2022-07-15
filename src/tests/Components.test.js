@@ -85,5 +85,3 @@ describe('Components Tests', () => {
 
 
 });
-
-//toHaveAttribute
