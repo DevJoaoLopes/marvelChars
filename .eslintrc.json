@@ -24,7 +24,11 @@
       "no-extra-semi": "warn",
       "use-isnan": "warn",
       "indent": [
-        "error", 2, { "SwitchCase": 1, "ignoredNodes": ["TemplateLiteral"] }
+        "error",
+        2,
+        {
+          "SwitchCase": 1
+        }
       ],
       "quotes": [1, "single"],
       "semi": ["error", "always"],
