@@ -3,8 +3,8 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: daily
-    # time: "12:00"
+    interval: weekly
+    time: "11:00"
   open-pull-requests-limit: 10
   ignore:
   - dependency-name: "@testing-library/react"
