@@ -3308,10 +3308,21 @@
     webpack-dev-middleware "^3.7.3"
     webpack-virtual-modules "^0.2.2"
 
-"@storybook/node-logger@6.4.7", "@storybook/node-logger@^6.4.7":
+"@storybook/node-logger@6.4.7":
   version "6.4.7"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-6.4.7.tgz#8028fee4e4dd0c9d4995dc7eb9ef840b0ea47c12"
   integrity sha512-k53wekINeOG2h1WFi2oZhcNB4AtzyEWd8PFIz2SNhdQy0nrOnKSnFJYMLvo6TOw1XqeukAZJkSNti4LxEO0frQ==
+  dependencies:
+    "@types/npmlog" "^4.1.2"
+    chalk "^4.1.0"
+    core-js "^3.8.2"
+    npmlog "^5.0.1"
+    pretty-hrtime "^1.0.3"
+
+"@storybook/node-logger@^6.5.9":
+  version "6.5.9"
+  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-6.5.9.tgz#129cfe0d0f79cab4f6a2ba194d39516680b1626f"
+  integrity sha512-nZZNZG2Wtwv6Trxi3FrnIqUmB55xO+X/WQGPT5iKlqNjdRIu/T72mE7addcp4rbuWCQfZUhcDDGpBOwKtBxaGg==
   dependencies:
     "@types/npmlog" "^4.1.2"
     chalk "^4.1.0"
@@ -5665,15 +5676,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
-  integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
-chalk@^4.1.0:
+chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -6180,15 +6183,10 @@ core-js@^2.4.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.0.4, core-js@^3.8.2:
+core-js@^3.0.4, core-js@^3.6.5, core-js@^3.8.2:
   version "3.19.2"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.19.2.tgz#ae216d7f4f7e924d9a2e3ff1e4b1940220f9157b"
   integrity sha512-ciYCResnLIATSsXuXnIOH4CbdfgV+H1Ltg16hJFN7/v6OxqnFr/IFGeLacaZ+fHLAm0TBbXwNK9/DNBzBUrO/g==
-
-core-js@^3.6.5:
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.9.0.tgz#790b1bb11553a2272b36e2625c7179db345492f8"
-  integrity sha512-PyFBJaLq93FlyYdsndE5VaueA9K5cNB7CGzeCj191YYLhkQM0gdZR2SKihM70oF0wdqKSKClv/tEBOpoRmdOVQ==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
